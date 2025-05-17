@@ -23,4 +23,5 @@ Simply open `index.html` in your web browser to experience the Spider-Verse!
 
 ## Live Preview
 Experience the Spider-Verse website live in your browser at the link below:
-https://rajkoli145.github.io/Spiderverse_web/
+
+🧷 [View Live](https://rajkoli145.github.io/Spider-Verse-Web/)
