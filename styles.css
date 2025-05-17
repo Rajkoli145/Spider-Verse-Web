@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #FF1744;
+    --accent-color: #00E5FF;
+    --text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+
+    background-image: url(assets/Bert-Spider-Verse.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-color);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+
+}
+
+.bg-section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/Bert-Spider-Verse.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    backdrop-filter: none;
+    border-radius: 30px;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 0 20px rgba(255, 23, 68, 0.3);
+    line-height: 1.2;
+
+}
+
+.hero p {
+    color: var(--text-secondary);
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+
+}
+
+.hero .logo-icon {
+    margin-bottom: 2rem;
+}
+
+.hero .logo-icon img {
+    width: 96px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    color: var(--text-color);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    box-shadow: 0 0 20px rgba(255, 23, 68, 0.4);
+}
+
+.cta-button:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 23, 68, 0.6);
+}
