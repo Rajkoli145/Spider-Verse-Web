@@ -19,7 +19,7 @@ A dynamic website for Spider-Man: Across the Spider-Verse movie featuring a beau
   - Movie trailer
 
 ## How to View
-Simply open `index.html` in your web browser to experience the Spider-Verse!
+Clone the repo and then simply open `index.html` in your web browser to experience the Spider-Verse!
 
 ## Live Preview
 Experience the Spider-Verse website live in your browser at the link below:
